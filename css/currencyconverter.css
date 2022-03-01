@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/flower.png");
+    background-repeat: no-repeat;
+    font-family:  sans-serif; 
+    
+}
+.heading{
+    text-align: center;
+     margin: 0px 0px 15px ; 
+    background-color: #00848c;
+    color: #fff;
+    
+}
+.heading h1{
+        font-size: 35px;
+}
+.heading p{
+     margin-top: 8px; 
+     padding: 10px;
+    font-size: 14px;
+}
+.currencyinput{
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#euro, #dollar, #pounce, #naira, #indianRs, #lankaRs, #saudiR{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 430px;
+    border: none;
+    box-shadow: 0px 1px 5px rgb(97, 97, 97);
+    }
+#euro{
+background-color: #87cefa;
+}
+#dollar{
+    background-color: #35d073;
+}
+#pounce{
+    background-color: #e6e6fa;
+}
+#naira{
+    background-color: #7fffd4;
+}
+#indianRs{
+    background-color: #ffb6c1;
+}
+#lankaRs{
+background-color: #ffe4c4;
+}
+#saudiR{
+background-color: #ffa07a;
+}
+
+@media (max-width: 450px){
+    .heading{
+        margin-right: 0px;
+        padding-right: 0%; 
+    }  
+    .currencyinput{
+      margin-right: 50px; 
+      
+    } 
+}
+
+@media (max-width: 380px){
+   .heading{
+       margin-left:35px;
+    margin-right: 0px; 
+    width: 100%;
+}
+}
